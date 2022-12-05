@@ -1,0 +1,290 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+
+/* header_starting */
+header {
+    width: 100%;
+    padding-bottom: 600px;
+    background: url("./img/bac.jpg") no-repeat center / cover;
+    position: relative;
+    background-attachment: fixed;
+}
+
+header .navbar {
+    width: 1200px;
+    position: fixed;
+    left: 50px;
+    padding-top: 40px;
+    background-color: white;
+    opacity: 0.9;
+    z-index: 1;
+    /* position: fixed; */
+}
+
+header .navbar .all {
+    width: 1100px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+header .navbar .all .bayrog {
+    width: 150px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+header .navbar .all .icons {
+    width: 120px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 30px;
+
+}
+
+header .navbar {
+    width: 1168px;
+    margin: auto;
+}
+
+
+
+header .navbar ul {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+header .navbar ul li a {
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 500;
+    color: #3d3d3d;
+    padding: 10px 0px;
+}
+
+header .navbar .secondul {
+    width: 730px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+header .navbar .secondul li a {
+    text-transform: uppercase;
+    font-weight: 700;
+    padding: 10px;
+    color: #3d3d3d;
+    font-size: 19px;
+    cursor: pointer;
+    line-height: 55px;
+}
+
+header .mouse {
+    position: absolute;
+    bottom: 15%;
+    width: 24px;
+    height: 34px;
+    right: 50%;
+    border: 2px solid white;
+    border-radius: 12px;
+
+
+}
+
+header .mouse:after {
+    content: '';
+    width: 5px;
+    height: 5px;
+    background-color: white;
+    display: block;
+    margin-top: 20px;
+    margin-left: 8px;
+    animation: mouse 2s infinite;
+
+
+}
+
+@keyframes mouse {
+    50% {
+        transform: translateY(-15px);
+    }
+}
+
+section {
+    width: 100%;
+
+
+}
+
+section .all {
+    width: 1200px;
+    margin: auto;
+}
+
+section .all h2 {
+    color: #b28d46;
+    line-height: 48px;
+    font-size: 38px;
+    font-weight: 500;
+    z-index: 0;
+}
+
+section .all .yangi {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #000;
+}
+
+section .all .yangi .fa-angle-left {
+    position: absolute;
+    bottom: 50%;
+    font-size: 50px;
+
+}
+
+section .all .yangi .fa-angle-right {
+    position: absolute;
+    right: 0%;
+    bottom: 50%;
+    font-size: 50px;
+
+}
+
+section .all .yangi .box img {
+    transition: 2s linear ease-in-out;
+}
+
+section .all .yangi .box img:hover {
+
+    cursor: pointer;
+}
+
+section .all .yangi .box .texts {
+    text-align: center;
+}
+
+section .all .yangi .box .texts .date {
+    display: inline-block;
+    background: #b28d46;
+    padding: 2px 6px 0 6px;
+    border-radius: 2px;
+    line-height: 15px;
+    text-transform: uppercase !important;
+
+}
+
+section .all .yangi .box .texts h3 {
+    display: block;
+    line-height: 20px;
+    color: #4a4a4a;
+    font-size: 16px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 10px;
+    text-transform: uppercase;
+}
+
+section .all .yangi .box .texts .bag {
+    line-height: 18px;
+    color: #4a4a4a;
+    font-size: 14px;
+    text-align: center;
+    margin-top: 5px;
+
+}
+
+section .all .yangi .box .texts .id {
+    line-height: 18px;
+    color: #4a4a4a;
+    font-size: 14px;
+    text-align: center;
+    margin-top: 5px;
+    text-transform: uppercase;
+}
+
+/* footer_starting */
+footer {
+    width: 100%;
+    background-color: #222;
+
+}
+
+footer .aboutus {
+    width: 1160px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer .aboutus h3 {
+    color: #999;
+    font-weight: 500;
+    font-size: 16px;
+    text-transform: uppercase;
+    line-height: 25px;
+    margin: 15px 0 10px;
+}
+
+footer .aboutus .first .social {
+    color: white;
+    font-size: 50px;
+
+}
+
+footer .aboutus p {
+    font-size: 16px;
+    color: white;
+
+}
+
+footer .aboutus .third .mail,
+.call {
+    display: flex;
+    align-items: center;
+
+}
+
+footer .aboutus .third .mail,
+.call {
+    color: white;
+
+}
+
+footer .aboutus .third .call {
+    margin-top: 15px;
+}
+
+footer .aboutus .third .our_app {
+    margin-top: 40px;
+}
+
+footer .aboutus .third .our_app .app {
+
+    width: 260px;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer .aboutus .third .our_app .app img {
+    width: 120px;
+    height: 40px;
+   
+}
+
+
+.yangi .box:hover img{ 
+    transition: 1s  ease-in-out !important;
+    transform: scale(1.2);
+    /* transition: 3s  ease-in-out; */
+}
